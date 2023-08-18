@@ -1,15 +1,21 @@
 # Rhino Grasshopper with Python
 
 guides)
+
 1. Rhino7 설치 및 1회 실행
-2. compute.Rhino3d 클론
-	https://github.com/mcneel/compute.rhino3d
-3. VisualStudio 2019 이상에서 src\compute.sln에서 compute.geometry 컴파일 (as debug)
-4. http://localhost:8081/version 에서 로컬 서버 도는지 확인
-5. https://www.rhino3d.com/compute/login 으로 토큰 복사 .env에 집어넣기
-6. pip install python-dotenv
-7. python 3.7~3.10 버전 다운로드 및 가상환경 생성(해당 파이썬 버전에서 진행)
+
+2. python 3.7~3.10 버전 다운로드 및 가상환경 생성(해당 파이썬 버전에서 진행)
 	py -3.7 -m venv gh_venv
+
+3. https://www.rhino3d.com/compute/login 으로 토큰 복사 .env에 집어넣기
+4. pip install python-dotenv
+	https://pypi.org/project/python-dotenv/
+
+5. compute.Rhino3d 클론
+	https://github.com/mcneel/compute.rhino3d
+6. VisualStudio 2019 이상에서 src\compute.sln에서 compute.geometry 컴파일 (as debug)
+7. http://localhost:8081/version 에서 로컬 서버 도는지 확인
+
 8. pip install compute-rhino3d
 	https://compute-rhino3d.readthedocs.io/en/latest/
 
