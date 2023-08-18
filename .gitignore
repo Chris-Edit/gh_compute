@@ -9,3 +9,8 @@ venv.bak/
 
 # gh
 gh_venv/
+
+# py
+__pycache__/
+*.py[cod]
+*$py.class

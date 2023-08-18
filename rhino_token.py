@@ -7,3 +7,5 @@ import os
 # load .env
 load_dotenv()
 token = os.environ.get('token')
+
+# print(token)
