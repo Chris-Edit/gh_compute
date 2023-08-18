@@ -9,7 +9,7 @@ guides)
 5. https://www.rhino3d.com/compute/login 으로 토큰 복사 .env에 집어넣기
 6. pip install dotenv
 7. python 3.7~3.10 버전 다운로드 및 가상환경 생성(해당 파이썬 버전에서 진행)
-	py -3.7 -m venv rhino_test
+	py -3.7 -m venv gh_venv
 8. pip install compute-rhino3d
 	https://compute-rhino3d.readthedocs.io/en/latest/
 
